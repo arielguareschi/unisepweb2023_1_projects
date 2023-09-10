@@ -1,0 +1,60 @@
+body{
+    background-color: #52a0fa;
+    color: #000;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    margin: 0 auto;    
+}
+
+.center{
+    text-align: center;
+}
+
+.janela{
+    border: solid 1px #000;
+    width: 400px;
+    height: 250px;
+    background-color: #fff;
+    position: absolute;
+    left: 20%;
+    top: 10%;
+    border-radius: 10px;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+.janela .cabecalho{
+    font-size: 10px;
+    background: rgb(169,169,169);
+    background: linear-gradient(0deg, rgba(169,169,169,1) 0%, 
+                              rgba(220,220,220,1) 50%, 
+                              rgba(169,169,169,1) 100%); 
+    border-radius: 10px 10px 0px 0px;
+    padding: 5px;
+    height: 15px;
+}
+.janela .cabecalho .titulo{
+    float: left;
+}
+.janela .cabecalho .btn-fechar{
+    float: right;
+    padding: 2px;
+    border-radius: 5px;
+    width: 15px;
+    text-align: center;
+    border: solid 1px #000;
+    background-color: #444;
+    color: #fff;
+}
+.janela .cabecalho .btn-fechar:hover{
+    background-color: #f00;
+    color: #000;
+}
+
+.janela .corpo{
+    max-width: 380px;
+    margin: 5px;
+    text-align: justify;
+    font-size: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}

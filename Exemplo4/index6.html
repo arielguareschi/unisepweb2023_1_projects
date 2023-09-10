@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>teste</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <script src="js/funcoes.js"></script>
+</head>
+<body>
+    <div class="center">
+        Seja bem-vindo
+    </div>
+    <button type="button" onclick="abrirJanela('teste')">
+        Abrir janela
+    </button>
+
+    <div id="teste" class="janela" style="display: block;">
+        <div class="cabecalho">
+            <div class="titulo">CABEÇALHO</div>
+            <div class="btn-fechar" onclick="abrirJanela('teste')">X</div>
+        </div>
+        <div class="corpo">
+            CORPO
+        </div>
+    </div>
+</body>
+</html>

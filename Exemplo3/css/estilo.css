@@ -1,0 +1,42 @@
+/*  */
+body{
+    margin: 0px;
+    font-size: 12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #aeaeae;
+    color: #ffee00;
+}
+
+header {
+    background-color: blue;
+    height: 60px;
+}
+
+.logo{
+    float: left;
+}
+.nome-empresa{
+    text-align: center;
+    font-size: 30px;
+    line-height: 60px;
+}
+
+main{
+    margin: 15px;
+    background-color: #fff;
+    padding: 25px;
+    border: solid 1px #000;
+    border-radius: 20px;
+    color: #000;
+    text-align: justify;
+    height: 60vh;
+}
+
+footer{
+    margin: 10px;
+    padding: 25px;
+    border-radius: 20px 20px 0px 0px;
+    background-color: #fff;
+    text-align: center;
+    color: #555;
+}
